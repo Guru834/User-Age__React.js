@@ -21,12 +21,17 @@ const DisplayInfo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  background-color: white;
 
   & span {
     padding: 10px;
   }
 `;
 const Icon = styled.span`
+  position: absolute;
+  top: 2px;
+  right: 4px;
   &:hover {
     color: white;
     transition: color 0.4s ease-in-out;

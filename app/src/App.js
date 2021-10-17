@@ -12,14 +12,12 @@ function App() {
       return [userInformation, ...prevState];
     });
   }
-  console.log(data);
+
   function handleDelete(id) {
-    console.log("clicked", id);
     setData((prevState) => {
       updatedData = prevState.filter((updateId) => updateId.id !== id);
       return updatedData;
     });
-    console.log(updatedData);
   }
   return (
     <div>
