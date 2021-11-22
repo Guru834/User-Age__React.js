@@ -33,7 +33,7 @@ const Icon = styled.span`
   top: 2px;
   right: 4px;
   &:hover {
-    color: white;
+    color: purple;
     transition: color 0.4s ease-in-out;
     cursor: pointer;
   }
